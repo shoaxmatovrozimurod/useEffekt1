@@ -1,8 +1,16 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import "./Header.css"
 
 const Header = () => {
-    const [data, setData] = useState ([]); 
+    const [data, setData] = useState ([]);
+    
+    useEffect ( => {()
+        const getUser = async () => {
+            try{
+                const res = await
+            }
+        }
+    })
 
 
 
