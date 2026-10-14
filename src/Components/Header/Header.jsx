@@ -22,12 +22,12 @@ const Header = () => {
 
 
   return (
-    <div>
+    <div className='flex'>
         {
             data.map(el =>(
                 <div key={el.id}>
-                    <img src= {el.avatar} alt="" />
-                    <h1> {el.name} </h1>
+                    <img className='key__img' src= {el.avatar} alt="" />
+                    <h1 className='key__title'> {el.name} </h1>
 
                 </div>
             ))
