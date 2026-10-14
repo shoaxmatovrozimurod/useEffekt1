@@ -30,8 +30,10 @@ const Header = () => {
                     data.map(el => (
 
                         <div className='flex__key' key={el.id}>
-                            <img className='key__img' src={el.avatar} alt="" />
+                            <span className='key__sn'> {el.id} </span>
+                            <img className='key__img' src={el.avatar} alt="Foydalanuchi rasmi" />
                             <h1 className='key__title'> {el.name} </h1>
+                            <p className='key__age'>{el.age}</p>
 
                         </div>
                     ))

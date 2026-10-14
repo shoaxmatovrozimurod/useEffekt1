@@ -1,3 +1,4 @@
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -22,15 +23,19 @@
     margin-top: 12px;
 }
 .flex__title{
+    padding: 23px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: aliceblue;
+
     position: fixed;
     top: o;
     right: 0;
     left: 0;
     z-index: 111;
     box-shadow: 3px 6px 5px  rgb(0, 70, 26);
-
-    padding: 23px;
-    font-size: 22px;
-    font-family: sans-serif;
-    color: aliceblue;
+}
+.key__sn{
+    background: none;
+    font-size: 12px;
 }
