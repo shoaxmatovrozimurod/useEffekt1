@@ -5,13 +5,18 @@ import axios from 'axios';
 const Header = () => {
     const [data, setData] = useState ([]);
     
-    useEffect ( => {()
+    useEffect (() => {
         const getUser = async () => {
             try{
-                const res = await axios.get( https:/6ace2b34f338359cf1c338f2.mockapi.io/users )
+                const res = await axios.get( 'https://6ace2b34f338359cf1c338f2.mockapi.io/users' );
+                setData (res.data);
+            } catch (error){
+                console.log("xatolk bor:", error);
+                
             }
+            
         }
-    })
+    } );
 
 
 
