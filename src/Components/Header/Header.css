@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+.flex__key{
+    padding: 30px 32px;
+    background-color: aqua;
+    margin-top: 11px;
+}
+.key__img{
+    width: 300px;
+    height: 232px;
+    border-radius: 5px;
+    margin-top: 11px;
+    border-radius: 12px;
+}
+.key__title{
+    color: aliceblue;
+    background-color: aqua;
+    margin-top: 12px;
+}
+.flex__title{
+    position: fixed;
+    top: o;
+    right: 0;
+    left: 0;
+    z-index: 111;
+    box-shadow: 3px 6px 5px  rgb(0, 70, 26);
+
+    padding: 23px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
