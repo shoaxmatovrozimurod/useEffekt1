@@ -22,7 +22,19 @@ const Header = () => {
 
 
   return (
-    <div>Header</div>
+    <div>
+        {
+            data.map(el =>(
+                <div key={el.id}>
+                    <img src= {el.avatar} alt="" />
+                    <h1> {el.name} </h1>
+
+                </div>
+            ))
+        }
+
+
+    </div>
   )
 }
 
