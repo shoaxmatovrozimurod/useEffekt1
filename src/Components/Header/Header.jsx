@@ -7,9 +7,9 @@ const Header = () => {
     useEffect (() => {
         const getUser = async() => {
             try{
-                const res = await axios.get ("https://mockapi.io/projects/6ace2b34f338359cf1c338f3");
-                setData(res);
-                console.log(data);
+                const res = await axios.get('https://6ace2b34f338359cf1c338f2.mockapi.io/users');
+                setData(res.data);
+                console.log(res.data);
                 
             }
             catch{
